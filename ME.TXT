@@ -1,0 +1,33 @@
+git config --global user.email "<EMAIL>""
+
+
+
+
+relative path - the file from where i am currently in
+#contact same webpg 
+section grp the elements together behave as complete new block
+span - creating space
+div?- same properties will be applied in each and every elements
+section works properly on css
+SCO - optimizing css as much as u can ?
+eg of ranking in chorme
+"user is the most stupid person in the world"
+
+lorem ipsum - random 
+span - control over the text what?
+
+fonts.google.com - poppins- regular400
+cdn network - multiple cdn is grt
+vm
+
+web dev - full stack dev 
+{j qery - special library in java script on browers}rec
+font awesome 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+https://github.com/Developers-Tech-Analogy/webpro-html-day-1
+https://devfolio.co/
+https://fontawesome.com/
+
+mini project :
+to recreate a design and deploy it 
