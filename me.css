@@ -101,6 +101,8 @@
     text-align: center;
   }
 
+
+
   .head-title {
     font-family: "Poly", serif;
     font-style: italic;
@@ -241,7 +243,8 @@
   
   .icons {
     display: flex;
-    margin-top: 400px;
+    position:relative;
+    top:170px;
   }
   .contact-icon{
     display: flex;
