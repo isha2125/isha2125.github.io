@@ -203,11 +203,12 @@
   }
   
  hr{
-   height: 10px;
+   height: 5px;
    border: none;
    background-color: black;
    width: 500px;
    transform:rotate(90deg);
+   float: left;
   
    
  }
@@ -288,27 +289,38 @@
   
  
   
-  
-  
-  
   .socialmedia {
     font-size: 48px;
     text-decoration: underline;
-    text-align: center;
-    margin-left: 500px;
+    margin-left: 110px;
+  
     
   }
-  
+  .sitemaph{
+    font-size: 48px;
+    text-decoration: underline;
+    text-align: center;
+  }
+  .sitemapc{
+    font-size: 24px;
+    text-align: center;
+    color: black;
+
+  }
   
   
   footer {
     background-image: linear-gradient(45deg,rgb(175, 31, 175),rgb(211, 47, 162));
     color: rgb(0, 0, 0);
     height: 300px;
-    text-align: left;
-    
+    text-align: left;  
   }
-  
+  .footer1{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    column-gap: 15px;
+  }
+ 
 
 
 
@@ -316,16 +328,22 @@
     font-size: 30px;
   }
   .contactme{
+    
     font-size: 48px;
     text-decoration: underline;
-    text-align:left;
+    margin-left: 50px ;
     
     
   }
+ 
   
   .copyright {
     font-size: 15px;
-    margin-bottom: 20px;
+     position: relative;
+     bottom: 0px;
+     left: 0px;
+     margin-top: 30px;
+     
   }
   
   .copyright a {
@@ -473,10 +491,7 @@
       font-size: small;
       padding-left: 20px;
     }
-   .item {
-      width: 100%;
-      margin: 10px 0;
-    }
+ 
     footer{
       height: 100px;
     }
