@@ -153,14 +153,14 @@
   .hellousertxt{
     font-family: 'Poly',serif;
     color: black;
-    background-color: white;
+    
     text-align: left;
     
     font-size: 32px;
   }
   .intro{
     padding-left: 20px;  
-    background-color: white;
+    background-color: rgb(255, 255, 255);
   }
   .Hey{
    
@@ -195,32 +195,30 @@
     /* margin-top: 50px; */
   }
   
-  .timeline {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-right: 50px;
-  }
+ 
   
- hr{
-   height: 5px;
-   border: none;
-   background-color: black;
-   width: 500px;
-   transform:rotate(90deg);
-   float: left;
-  
+  hr{
+    height: 5px;
+    border: none;
+    background-color: black;
+    width: 500px;
+    transform:rotate(90deg);
+    float: left;
    
- }
+    
+  }
+
+  
   
   .timelinetext {
     color: rgb(0, 0, 0);
     margin-top: 50px;
     text-align: left;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding-left: 20px;
     margin-right: 280px;
     border-radius: 7px;
+    margin-left: 100px;
 
   }
   .goals{
@@ -237,6 +235,20 @@
     text-decoration: underline;
     font-size: 40px;
   }
+  .degree{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: none;
+    max-width: none;
+  }
+  .py{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+
+  }
 
 
   .impossiblelist{
@@ -246,7 +258,9 @@
     border-radius: 50px;
     margin-bottom: 100px;
   }
-  
+  .strikeoff{
+    text-decoration: line-through;
+  }
   
   .icons {
     display: flex;
@@ -255,6 +269,9 @@
   }
   .contact-icon{
     display: flex;
+    
+    margin-left: 70px;
+    
   }
 
   .sm{
@@ -323,7 +340,6 @@
  
 
 
-
   .contact-info{
     font-size: 30px;
   }
@@ -368,7 +384,8 @@
     display: none;
   }
  
-  
+ 
+ 
 
 
   @media screen and (max-width: 980px) {
@@ -430,10 +447,21 @@
       padding-right: 160px;
       
     }
+
+    .myimg{
+      width: 100px;
+      height: 100px;
+      position: relative;
+      
+      left: 10px;
+    }
     .icons{
       display: flex;
-      margin-top: 443px;
+      position: relative;
+      left: 30px;
+      top: 150px;
      align-content: center;
+
     }
     .hellousertxt {
       flex: 100%;
@@ -464,6 +492,7 @@
     .timelinetext{
       font-size: small;
       margin-right: 0px;
+      margin-left: 10px;
     }
     .srm{
       font-size:medium;
@@ -484,8 +513,15 @@
       font-size: medium;
     }
 
+    .footer1{
+      display: grid;
+      grid-template-columns: repeat(3 , 1fr);
+      column-gap: 15px;
+    }
+
     .contactme{
       font-size: medium;
+      
     }
     .contact-info{
       font-size: small;
@@ -493,8 +529,38 @@
     }
  
     footer{
-      height: 100px;
+      height: 151px;
     }
+    .socialmedia{
+      font-size: medium;
+
+    }
+    .sitemaph{
+      font-size: medium;
+    }
+    .contact-icon{
+      margin-left: 0px;
+    }
+    .sm{
+      width: 30px;
+      height: 30px;
+    }
+    .smgit{
+      width: 40px;
+      height: 35px;
+    }
+    .sitemapc{
+      font-size: x-small;   
+     }
+    .copyright{
+     
+      font-size: xx-small;
+      margin-top: 0px;
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+
   }
   
   @media screen and (max-width: 600px) {
@@ -510,6 +576,29 @@
       margin-top: 0;
       visibility: hidden;
     }
-  
+    .footer1{
+      display: grid;
+      grid-template-columns: repeat(3 , 1fr);
+      column-gap: 15px;
+    }
+   
+    .contact-icon{
+      margin-left: 0px;
+    }
+    .sm{
+      margin:5px;
+      padding: 2px;
+      width: 15px;
+      height: 15px;
+    }
+    .smgit{
+      margin: 5px;
+      padding: 2px;
+      width: 15px;
+      height: 15px;
+    }
+    .socialmedia{
+      margin-left: 15px;
+    }
     
   }
